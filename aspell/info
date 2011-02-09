@@ -1,0 +1,23 @@
+name_english Greek
+name_native Ελληνικά
+lang el
+author:
+  name Steve Stavropoulos
+  name-native Σταύρος Σταυρόπουλος
+  email steve at math upatras gr>
+  maintainer true
+author:
+  name Evripidis Papakostas
+  email evris at source gr
+copyright GPLv2
+url http://elspell.math.upatras.gr/
+version 0.08-0
+source-version 0.08
+data_file el_phonet.dat
+data_file el.kbd
+accurate true
+complete true
+alias el greek gr
+dict:
+  name el
+  add el
