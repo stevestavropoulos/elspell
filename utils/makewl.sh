@@ -8,5 +8,5 @@ fi
 
 export LC_ALL=C
 
-cat "$@" | sed -e 's/^M//g' -e 's/ //g' | sort -u
+cat "$@" | sed -e 's///g' -e 's/ //g' | sort -u
 
