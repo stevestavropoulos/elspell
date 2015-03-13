@@ -1,10 +1,10 @@
-name      :  el_GR 0.9-pre1 version of the greek dictionary
-dd/mm/yyyy:  13/04/2011
+name      :  el_GR 0.9 version of the greek dictionary
+dd/mm/yyyy:  14/03/2015
 License   :  MPL 1.1/GPL 2.0/LGPL 2.1
 contact   :  Steve Stavropoulos
 URL       :  http://elspell.math.upatras.gr
 
-Added about 240259 new words in this release (courtesy of Γιώργος Γέγος and with the kind help of Nick Demou).
+Added about 240259 new words in this release (courtesy of Γιώργος Γέγος, with the kind help of Nick Demou).
 
  Steve Stavropoulos
 
