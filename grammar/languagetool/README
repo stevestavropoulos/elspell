@@ -1,10 +1,17 @@
-greek_tags.txt should be moved to LANGUAGETOOL/org/languagetool/resource/el/
+- greek_tags.txt should be copied to LANGUAGETOOL/org/languagetool/resource/el/
 
-grammar.xml should be moved to LANGUAGETOOL/org/languagetool/rules/el/
 
-languagetool.dict should be used to generate LANGUAGETOOL/org/languagetool/resource/el/greek.dict by running this on the LANGUAGETOOL directory:
+- grammar.xml should be copied to LANGUAGETOOL/org/languagetool/rules/el/
+
+
+- languagetool.dict should be used to generate LANGUAGETOOL/org/languagetool/resource/el/greek.dict by running this on the LANGUAGETOOL directory:
+
 java -cp languagetool.jar org.languagetool.dev.POSDictionaryBuilder path/to/languagetool.dict org/languagetool/resource/el/greek.info
 
-languagetool_synth.dict should be used to generate LANGUAGETOOL/org/languagetool/resource/el/greek_synth.dict by running this on the LANGUAGETOOL directory:
-java -cp languagetool.jar org.languagetool.dev.SynthDictionaryBuilder path/to/languagetool_synth.dict org/languagetool/resource/el/greek_synth.info
+
+- The synth dictionary is also generated from languagetool.dict:
+
+java -cp languagetool.jar org.languagetool.dev.SynthDictionaryBuilder path/to/languagetool.dict org/languagetool/resource/el/greek_synth.info
+
+The generated file should be put at LANGUAGETOOL/org/languagetool/resource/el/greek_synth.dict
 

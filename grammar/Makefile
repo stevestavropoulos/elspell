@@ -7,8 +7,5 @@ wl.data: pos.data
 	@cat pos.data | awk -F " " '{print $$1}' | sort -u > wl.data
 
 languagetool/languagetool.dict: pos.data
-	@cat pos.data | awk -F " " '{OFS="\t"; print $$1, $$2, $$3}' > languagetool/languagetool.dict
-
-languagetool/languagetool_synth.dict: pos.data
-	@cat pos.data | awk -F " " '{OFS="\t"; print $$1, $$3, $$2}' > languagetool/languagetool_synth.dict
+	@cat pos.data | awk -F " " '{OFS="\t"; print $$1, $$3, $$2}' > languagetool/languagetool.dict
 

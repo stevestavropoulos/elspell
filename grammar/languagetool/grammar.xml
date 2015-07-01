@@ -33,7 +33,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
                 </marker>
                 <token postag="OusPl.*" postag_regexp="yes"></token>
             </pattern>
-            <message>Ασυμφωνία αριθμού ανάμεσα στο επίθετο και στο ουσιαστικό. <suggestion><match no="1" postag="EpArsPlOnom"/></suggestion></message>
+            <message>Ασυμφωνία αριθμού ανάμεσα στο επίθετο και στο ουσιαστικό. <suggestion><match no="1" postag="EpOuPlOnom"/></suggestion></message>
             <short>Πρόβλημα συμφωνίας αριθμού</short>
             <example correction="Μεγάλα" type="incorrect"><marker>Μεγάλο</marker> προβλήματα.</example>
             <example type="correct">Μεγάλα προβλήματα</example>
