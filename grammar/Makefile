@@ -1,5 +1,5 @@
 flexy?=~/flexy
-flexyrun?=python3.4 flexy.py
+flexyrun?=python3 flexy.py
 
 pos.data: word.rule.data
 	@cat word.rule.data | while read line; do cd ${flexy} && ${flexyrun} $${line}; done > $@
