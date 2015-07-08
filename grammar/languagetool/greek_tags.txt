@@ -68,7 +68,6 @@ RhmEnergEnestYpotEgw
 RhmEnergEnestYpotEmeis
 RhmEnergEnestYpotEseis
 RhmEnergEnestYpotEsy
-RhmEnergParatOristEgw
 RhmEnergPrkOristAytoi
 RhmEnergPrkOristAytos
 RhmEnergPrkOristEgw
